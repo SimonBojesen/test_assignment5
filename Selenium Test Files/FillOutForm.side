@@ -1,0 +1,243 @@
+{
+  "id": "6b616dd0-97e8-4141-aab2-3dad48af5b04",
+  "version": "2.0",
+  "name": "FillOutForm",
+  "url": "https://sqengineer.com/practice-sites/basic-web-elements/",
+  "tests": [{
+    "id": "93adab50-e3fe-419d-841a-48fd33b714f3",
+    "name": "FillForm",
+    "commands": [{
+      "id": "4f0ae6b2-99d7-46ae-a597-4e20266ff463",
+      "comment": "",
+      "command": "open",
+      "target": "https://sqengineer.com/practice-sites/basic-web-elements/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d532feb-7c08-44a9-a9b4-b936fec6e81c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x948",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f62c8304-c666-49d7-8e14-7ee1c0416b4c",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=fname", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//article[@id='post-109']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5522cc0-4feb-4383-abf3-83e1e87dd325",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=fname", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//article[@id='post-109']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Simon"
+    }, {
+      "id": "03342bd6-5eb8-4a69-8d90-31b7e79c88c2",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lname", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//article[@id='post-109']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Bojesen"
+    }, {
+      "id": "e3a39796-0542-41ab-b80f-f55097f344ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=maleGender",
+      "targets": [
+        ["id=maleGender", "id"],
+        ["name=gender", "name"],
+        ["css=#maleGender", "css:finder"],
+        ["xpath=//input[@id='maleGender']", "xpath:attributes"],
+        ["xpath=//article[@id='post-109']/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d68d0900-53e7-4041-b4e7-0afcbd65faab",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=emailID", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//article[@id='post-109']/div/form/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35cd5678-6432-494f-ae5e-331814604696",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=emailID", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//article[@id='post-109']/div/form/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "simo"
+    }, {
+      "id": "c936bc68-b172-4f7b-9016-c285d0f7fb46",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=emailID", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//article[@id='post-109']/div/form/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "08cece95-9216-47a8-9731-d87977984c94",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=emailID", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//article[@id='post-109']/div/form/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "simon@schonberg.dk"
+    }, {
+      "id": "0bacef32-aaf9-4a82-a439-17e179598735",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectBox",
+      "targets": [
+        ["id=selectBox", "id"],
+        ["css=#selectBox", "css:finder"],
+        ["xpath=//select[@id='selectBox']", "xpath:attributes"],
+        ["xpath=//article[@id='post-109']/div/form/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c479dc6-25ba-4b1c-97f5-e1a80f71e16e",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectBox",
+      "targets": [],
+      "value": "label=Tokyo"
+    }, {
+      "id": "30dbeec4-f5ff-4168-b8b6-2cdcbedb45da",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(5)",
+      "targets": [
+        ["css=option:nth-child(5)", "css:finder"],
+        ["xpath=//option[@value='Tokyo']", "xpath:attributes"],
+        ["xpath=//select[@id='selectBox']/option[5]", "xpath:idRelative"],
+        ["xpath=//option[5]", "xpath:position"],
+        ["xpath=//option[contains(.,'Tokyo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a518d53-4894-4928-8829-06c44467ef01",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8956c16b-624d-410a-a7d0-da52bf2246d7",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af554bd6-ed3d-40ff-b386-a85ea9538722",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//label[@id='readText']/b",
+      "targets": [
+        ["css=b", "css:finder"],
+        ["xpath=//label[@id='readText']/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'Read this text and print the output')]", "xpath:innerText"]
+      ],
+      "value": "text"
+    }, {
+      "id": "414f8c69-658e-455e-bc99-90d314bab1c5",
+      "comment": "",
+      "command": "assertText",
+      "target": "${text}",
+      "targets": [
+        ["css=b", "css:finder"],
+        ["xpath=//label[@id='readText']/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'Read this text and print the output')]", "xpath:innerText"]
+      ],
+      "value": "Read this text and print the output"
+    }, {
+      "id": "712f9db4-6dea-4674-8787-68402b6a7671",
+      "comment": "",
+      "command": "echo",
+      "target": "${text}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18ee7ff1-8e31-42ef-b1d3-7c29130189b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(27)",
+      "targets": [
+        ["css=input:nth-child(27)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//article[@id='post-109']/div/form/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4071328d-de8f-45b3-8450-9def8a33ebbb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://sqengineer.com/", "https://sqengineer.com/practice-sites/basic-web-elements/"],
+  "plugins": []
+}

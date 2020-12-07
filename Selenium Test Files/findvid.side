@@ -1,0 +1,198 @@
+{
+  "id": "21787bb6-d645-4194-b409-8d7d9492b227",
+  "version": "2.0",
+  "name": "findvid",
+  "url": "https://www.youtube.com",
+  "tests": [{
+    "id": "098b25d7-7d60-41f8-992e-d95ce2783a46",
+    "name": "mustFindVid",
+    "commands": [{
+      "id": "f5f3644d-0d48-4382-845d-22739d0ff94a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e590d640-571b-41a1-bf14-ba83080d5db0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59c836c1-bd44-4c5c-a395-7c5f9c29b3de",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b36e16a-b715-4326-8ef4-a676d00b2fee",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Justin Bieber baby"
+    }, {
+      "id": "d5ac2c70-1e1e-416b-a9a4-aa956c36737d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5db08084-1ac2-4a6b-bc18-9227684cf177",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(2) > #dismissable #thumbnail",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > #dismissable #thumbnail", "css:finder"],
+        ["xpath=(//a[@id='thumbnail'])[35]", "xpath:attributes"],
+        ["xpath=(//div[@id='dismissable']/ytd-thumbnail/a)[35]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/watch?v=Uim4GwSfzxY')]", "xpath:href"],
+        ["xpath=//ytd-video-renderer[2]/div/ytd-thumbnail/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1caab16e-0ea2-41b3-b8d7-7bf3a35be481",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(2) > #dismissable > .style-scope > #thumbnail",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > #dismissable > .style-scope > #thumbnail", "css:finder"],
+        ["xpath=(//a[@id='thumbnail'])[35]", "xpath:attributes"],
+        ["xpath=(//div[@id='dismissable']/ytd-thumbnail/a)[35]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/watch?v=Uim4GwSfzxY')]", "xpath:href"],
+        ["xpath=//ytd-video-renderer[2]/div/ytd-thumbnail/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20498a02-4cc8-4ffc-b1b8-a1377d774139",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-item-section-renderer:nth-child(1) > #dismissable #thumbnail #img",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(1) > #dismissable #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/kffacxfA7G4/hq720.jpg?sqp=-oaymwEZCOgCEMoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAsZi10JqmqR7Q0mqxxcxXimiCSuQ')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[74]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[34]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27abab3e-c2e2-48ab-9442-d511620f4dc8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-item-section-renderer:nth-child(1) > #dismissable #thumbnail #img",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(1) > #dismissable #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/kffacxfA7G4/hq720.jpg?sqp=-oaymwEZCOgCEMoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAsZi10JqmqR7Q0mqxxcxXimiCSuQ')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[74]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[34]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26897238-0396-44ac-b744-a5ded8244bc7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-thumbnail > #thumbnail",
+      "targets": [
+        ["css=.ytd-thumbnail > #thumbnail", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/an_webp/kffacxfA7G4/mqdefault_6s.webp?du=3000&sqp=CP7mt_4F&rs=AOn4CLC9tKvxUhSIqGkTIVjaIel4rv9GkA')]", "xpath:img"],
+        ["xpath=//img[@id='thumbnail']", "xpath:attributes"],
+        ["xpath=//div[@id='mouseover-overlay']/ytd-moving-thumbnail-renderer/img", "xpath:idRelative"],
+        ["xpath=//ytd-moving-thumbnail-renderer/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4621baaf-8705-44c9-9bc4-aaf7400e34bb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-thumbnail > #thumbnail",
+      "targets": [
+        ["css=.ytd-thumbnail > #thumbnail", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/an_webp/kffacxfA7G4/mqdefault_6s.webp?du=3000&sqp=CP7mt_4F&rs=AOn4CLC9tKvxUhSIqGkTIVjaIel4rv9GkA')]", "xpath:img"],
+        ["xpath=//img[@id='thumbnail']", "xpath:attributes"],
+        ["xpath=//div[@id='mouseover-overlay']/ytd-moving-thumbnail-renderer/img", "xpath:idRelative"],
+        ["xpath=//ytd-moving-thumbnail-renderer/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ed9c447-b405-40a3-a323-e39920e2df68",
+      "comment": "",
+      "command": "click",
+      "target": "id=play",
+      "targets": [
+        ["id=play", "id"],
+        ["css=#play", "css:finder"],
+        ["xpath=//yt-icon[@id='play']", "xpath:attributes"],
+        ["xpath=//div[@id='mouseover-overlay']/ytd-moving-thumbnail-renderer/yt-icon", "xpath:idRelative"],
+        ["xpath=//ytd-moving-thumbnail-renderer/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b791a1d3-fdfd-42a4-af13-478162bacb60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.video-stream",
+      "targets": [
+        ["css=.video-stream", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8189f02-68ee-42d5-8eee-a20902a0f97e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.video-stream",
+      "targets": [
+        ["css=.video-stream", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a4e7f42-fbe8-47ce-92c2-a6383ac8e037",
+      "comment": "",
+      "command": "click",
+      "target": "css=.video-stream",
+      "targets": [
+        ["css=.video-stream", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "46e258e7-0e8e-4c26-a816-78450d79a316",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}
